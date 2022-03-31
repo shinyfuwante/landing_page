@@ -1,0 +1,104 @@
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 20px;
+    margin: -10px -10px 0px;
+    font-size: 16px;
+}
+topper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hero_left {
+    flex-flow: column nowrap;
+    justify-content: left;
+}
+hero_content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+main_text {
+    text-emphasis: 900;
+    font-size: 48px;
+    flex-shrink: 1 0 auto;
+}
+hero_content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+hero_content button {
+    justify-self: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px #E5E7EB;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+.hero_image {
+    flex: 1 0 auto;
+    width: 500px;
+    height: auto;
+}
+
+.header_links {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+}
+.header_links a {
+    text-decoration: none;
+    color: inherit;
+}
+.header_logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 55%;
+}
+
+.hero_image {
+    width: 500px;
+    height: auto;
+}
+
+images {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+images h1 {
+    flex: 1 0 auto;
+    align-self: center;
+    font-size: 36px;
+    text-emphasis: 900;
+    color: #1F2937;
+}
+
+images contentainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+figure {
+    color: #1F2937;
+    text-align: center;
+}
+
+figure img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
