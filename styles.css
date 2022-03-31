@@ -2,11 +2,13 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+/* Section 1 */
+
 img {
     width: 250px;
     height: auto;
 }
-header {
+header, footer {
     background-color: #1f2937;
     color: #F9FAF8;
     padding: 20px;
@@ -72,10 +74,13 @@ hero_content button {
     height: auto;
 }
 
+/* Section 2 */
+
 images {
     display: flex;
     justify-content: center;
     flex-flow: column;
+    padding: 100px;
 }
 images h1 {
     flex: 1 0 auto;
@@ -83,12 +88,13 @@ images h1 {
     font-size: 36px;
     text-emphasis: 900;
     color: #1F2937;
+    margin-bottom: 0px;
 }
 
 images contentainer {
     display: flex;
     justify-content: space-evenly;
-    margin: 100px;
+    margin: 0px 100px 10px;
 }
 
 figure {
@@ -101,4 +107,50 @@ figure img {
     height: 250px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+/* Section 3 */
+quotetainer {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-flow: column;
+    padding: 100px;
+    margin: -10px -10px 0;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+quotetainer credit {
+    text-align: right;
+}
+/* Section 4 */
+calltoaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+cta_prompt {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 100px;
+    padding: 40px 60px;
+    color: white;
+    background-color:#3882F6;
+    border-radius: 10px;
+}
+
+cta_prompt button {
+    background-color:#3882F6;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 1px 20px;
+    flex-shrink: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-bottom: -20px;
 }
